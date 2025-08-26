@@ -1,0 +1,43 @@
+# Keil uVision项目文件
+*.uvguix*
+*.uvoptx
+*.bak
+*.orig
+*.tmp
+
+# 编译输出文件
+Output/
+Project/RVMDK（uv5）/Listings/
+Project/RVMDK（uv5）/Objects/
+*.axf
+*.bin
+*.elf
+*.hex
+*.lst
+*.map
+*.o
+*.d
+*.crf
+
+# 调试配置文件
+*.dbgconf
+
+# 日志文件
+*.log
+
+# Windows系统文件
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 保留主要源代码和库文件
+!User/
+!Libraries/
+!Project/RVMDK（uv5）/*.uvprojx
+!*.c
+!*.h
+!*.s
